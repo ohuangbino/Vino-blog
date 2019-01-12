@@ -102,9 +102,9 @@ class Commander extends ConsoleHelper {
     protected function getCommandDescriptions()
     {
         $descriptions = [
-            'composer' => 'Allows you manage composer here',
-            'db'       => 'Helps you to create mysql data', 
-            'server'   => 'Allows you to run php server',
+            'Composer' => 'Allows you manage composer here',
+            'Db'       => 'Helps you to create mysql data', 
+            'Server'   => 'Allows you to run php server',
         ];    
 
         return $descriptions;
